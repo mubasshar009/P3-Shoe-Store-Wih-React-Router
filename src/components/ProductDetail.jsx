@@ -22,9 +22,7 @@ const ProductDetail = () => {
     const { productID } = useParams();
     const { name, img } = shoes[productID];
     return (
-        <div style={{
-            textAlign: 'center', marginLeft: 'auto', marginRight: 'auto', width: '50%'
-        }}>
+        <div>
             <h1>{name}</h1>
             <img src={img} alt={name} />
         </div>
