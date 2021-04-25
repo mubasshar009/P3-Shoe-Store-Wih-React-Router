@@ -26,7 +26,7 @@ const ProductIndex = () => {
                     return (
                         <li key={productID}>
                             <Link to={`${productID}`}>
-                                <h2>{name}</h2>
+                                <h2 >{name}</h2>
                                 <img src={img} alt={name} />
                             </Link>
                         </li>

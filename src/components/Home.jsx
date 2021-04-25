@@ -5,7 +5,8 @@ const Home = () => {
 
     return (
         <div>
-            <img src={url} id="img" style={{ marginLeft: '180px', }} />
+
+            <img className='main' src={url} />
         </div>
     )
 }

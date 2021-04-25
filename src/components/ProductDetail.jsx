@@ -22,7 +22,7 @@ const ProductDetail = () => {
     const { productID } = useParams();
     const { name, img } = shoes[productID];
     return (
-        <div>
+        <div className="detail">
             <h1>{name}</h1>
             <img src={img} alt={name} />
         </div>
